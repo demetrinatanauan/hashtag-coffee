@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hashtag Coffee – Capitol Site | Batangas City Café</title>
+  <meta name="description" content="Hashtag Coffee Capitol Site, Batangas City: specialty coffee, pizza, pasta and desserts. See the menu, opening hours, location and book a table.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Oswald:wght@400;500;600&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%230f2342'/><text x='50' y='68' font-size='54' text-anchor='middle' fill='%23e0aa3e' font-family='Arial' font-weight='bold'>%23</text></svg>">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== Header / navigation ===== -->
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main">
+      <a href="index.html" class="logo"><span class="logo-mark">#</span>Hashtag <span>Coffee</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Visit &amp; Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <button class="order-btn" type="button" aria-label="Open my order">🛒<span class="order-count" data-count="0">0</span></button>
+        <a href="contact.html#reserve" class="btn btn-sm">Reservation</a>
+        <button class="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ===== Hero with background video ===== -->
+    <section class="hero">
+      <img class="hero-media" src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1800&q=70" alt="" aria-hidden="true" fetchpriority="high">
+      <div class="container">
+        <div class="hero-content">
+          <div class="status-pill" data-open-status><span class="status-dot"></span><span class="status-text">Checking hours…</span></div>
+          <span class="script">Welcome to</span>
+          <h1>Hashtag Coffee<br>Capitol Site</h1>
+          <p>Signature coffee, matcha and frappes, plus pasta, pizza and Filipino favorites like lechon kawali – right in front of the Batangas Provincial Capitol. Open daily until 2 AM for study sessions and barkada nights.</p>
+          <div class="hero-actions">
+            <a href="menu.html" class="btn">Explore the menu</a>
+            <a href="contact.html#reserve" class="btn btn-light">Book a table</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Why visit ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="features">
+          <div class="feature reveal"><div class="feature-icon">☕</div><h3>Specialty drinks</h3><p>From the Hashtag Coffee Signature to matcha, milk tea and frappes.</p></div>
+          <div class="feature reveal"><div class="feature-icon">🍕</div><h3>Real meals</h3><p>Rice meals, pasta, pizza, burgers and all-day breakfast.</p></div>
+          <div class="feature reveal"><div class="feature-icon">🌙</div><h3>Open late</h3><p>Open every day from 7 AM to 2 AM. Last order is at 1 AM.</p></div>
+          <div class="feature reveal"><div class="feature-icon">🚗</div><h3>Easy to find</h3><p>Along the National Highway, in front of the Provincial Capitol.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Featured dishes (rendered from js/data.js) ===== -->
+    <section class="section section-alt" id="featured">
+      <div class="container">
+        <div class="section-head">
+          <span class="script">Menu</span>
+          <h2>Special dishes</h2>
+          <div class="divider"></div>
+          <p>Our most-ordered drinks and plates. Tap “+ Add” to build an order and see the estimated total before you visit.</p>
+        </div>
+        <div class="grid-3" id="featured-grid"></div>
+        <p style="text-align:center;margin-top:40px"><a href="menu.html" class="btn btn-outline">See the full menu</a></p>
+      </div>
+    </section>
+
+    <!-- ===== About teaser ===== -->
+    <section class="section">
+      <div class="container split">
+        <div class="split-img reveal">
+          <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1000&q=75" alt="Warm, wood-toned café interior with tables and pendant lights" loading="lazy">
+          <div class="badge"><strong>3.8★</strong><small>on Google Maps</small></div>
+        </div>
+        <div class="split-text reveal">
+          <span class="script">Our story</span>
+          <h2>Coffee worth sharing</h2>
+          <p>Good coffee tastes better with good company. That is the idea behind Hashtag Coffee's Capitol Site branch, in front of the Batangas Provincial Capitol, where students, office workers and families meet every day.</p>
+          <ul class="checklist">
+            <li>Drinks from ₱110 and more than 90 items on the menu</li>
+            <li>Pasta platters, pizzas and party platters made for groups</li>
+            <li>Dine in, take out or reserve ahead</li>
+          </ul>
+          <a href="about.html" class="btn">Read more about us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Promo video ===== -->
+    <section class="section section-dark">
+      <div class="container">
+        <div class="section-head">
+          <span class="script">Watch</span>
+          <h2>A day at Hashtag</h2>
+          <div class="divider"></div>
+          <p>A 30-second look at our coffee, food and space.</p>
+        </div>
+        <div class="video-wrap reveal">
+          <video data-promo controls preload="metadata" playsinline poster="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1400&q=70">
+            <source src="assets/video/hashtag-promo.webm" type="video/webm">
+            Your browser does not support HTML5 video.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Reviews ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="script">Reviews</span>
+          <h2>What guests say</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="reviews">
+          <article class="review reveal"><div class="stars">★★★★☆</div><p><strong style="font-size:1.6rem;font-style:normal;color:var(--roast)">3.8</strong> out of 5 from 27 reviews on Google Maps.</p><strong>Google Maps</strong></article>
+          <article class="review reveal"><div class="stars">★★★★☆</div><p>“Coffee and food was great but a bit expensive.”</p><strong>Google reviewer</strong></article>
+          <article class="review reveal"><div class="stars">👥</div><p><strong style="font-size:1.6rem;font-style:normal;color:var(--roast)">4.2K</strong> followers on Facebook. Join the community for promos and new drinks.</p><strong><a href="https://www.facebook.com/share/g/1BVFM1Ttfj/" target="_blank" rel="noopener" style="color:var(--caramel-dark)">Join our community ↗</a></strong></article>
+        </div>
+        <p style="text-align:center;margin-top:30px"><a href="about.html#feedback-form" class="btn btn-outline">Rate your visit</a></p>
+      </div>
+    </section>
+
+    <!-- ===== Hours & location strip ===== -->
+    <section class="section section-alt">
+      <div class="container info-grid">
+        <div class="info-card reveal">
+          <div class="feature-icon">🕗</div>
+          <h3>Opening hours</h3>
+          <table class="hours-table"><tbody data-hours-table></tbody></table>
+          <p style="margin-top:10px;font-size:.8rem">Last order at 1:00 AM.</p>
+        </div>
+        <div class="info-card reveal">
+          <div class="feature-icon">📍</div>
+          <h3>Find us</h3>
+          <p>National Highway, Kumintang Ibaba, Batangas City – in front of the Batangas Provincial Capitol</p>
+          <p style="margin-top:12px"><a href="contact.html#map">View the map →</a></p>
+        </div>
+        <div class="info-card reveal">
+          <div class="feature-icon">📞</div>
+          <h3>Get in touch</h3>
+          <p>Call or text <a href="tel:+639566557941">0956 655 7941</a> for reservations, events and bulk orders.</p>
+          <p style="margin-top:12px"><a href="contact.html">Contact details →</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Call to action ===== -->
+    <section class="cta">
+      <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1600&q=70" alt="" loading="lazy">
+      <div class="container">
+        <h2>Save your seat</h2>
+        <p>Planning a study session or a barkada night? Reserve a table in less than a minute.</p>
+        <a href="contact.html#reserve" class="btn">Reserve now</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="logo"><span class="logo-mark">#</span>Hashtag <span>Coffee</span></a>
+        <p>In front of the Batangas Provincial Capitol, Kumintang Ibaba, Batangas City. Open daily, 7 AM – 2 AM.</p>
+        <div class="socials">
+          <a href="https://www.facebook.com/share/g/1BVFM1Ttfj/" target="_blank" rel="noopener" aria-label="Facebook community">f</a>
+          <a href="mailto:btghashtagcoffee@gmail.com" aria-label="Email">@</a>
+          <a href="tel:+639566557941" aria-label="Call">☎</a>
+        </div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Visit &amp; contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="menu.html?cat=coffee">Coffee</a></li>
+          <li><a href="menu.html?cat=non-coffee">Non-coffee</a></li>
+          <li><a href="menu.html?cat=meals">Meals</a></li>
+          <li><a href="menu.html?cat=pasta-pizza">Pasta &amp; pizza</a></li>
+          <li><a href="menu.html?cat=snacks">Snacks &amp; burgers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Promos in your inbox</h4>
+        <p>Get new drinks, promos and events first.</p>
+        <form class="newsletter" novalidate>
+          <input type="email" placeholder="you@email.com" aria-label="Email address" required>
+          <button class="btn btn-sm" type="submit">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom container">© <span id="year">2026</span> Hashtag Coffee – Capitol Site. School web project by D. J. P. Natanauan &amp; K. B. M. Espina, LPU-Batangas.</div>
+  </footer>
+
+  <!-- ===== Order tray ===== -->
+  <div class="overlay"></div>
+  <aside class="order-tray" id="order-tray" aria-label="My order" aria-hidden="true">
+    <div class="tray-head"><h3>My order</h3><button type="button" data-close-tray aria-label="Close">×</button></div>
+    <ul class="tray-items" id="tray-items"></ul>
+    <div class="tray-foot">
+      <div class="tray-total"><span>Estimated total</span><span id="tray-total">₱0</span></div>
+      <a href="contact.html#reserve" class="btn">Reserve a table</a>
+      <button type="button" id="clear-order" class="btn btn-outline btn-sm" style="margin-top:8px">Clear order</button>
+      <small>This is a planning tool only. Pay and order at the counter.</small>
+    </div>
+  </aside>
+
+  <a href="contact.html#reserve" class="btn quick-btn">📅 Quick reserve</a>
+  <button class="to-top" type="button" aria-label="Back to top">↑</button>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

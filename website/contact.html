@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visit & Contact | Hashtag Coffee – Capitol Site</title>
+  <meta name="description" content="Location map, opening hours, contact details and table reservations for Hashtag Coffee Capitol Site, Batangas City.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Oswald:wght@400;500;600&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%230f2342'/><text x='50' y='68' font-size='54' text-anchor='middle' fill='%23e0aa3e' font-family='Arial' font-weight='bold'>%23</text></svg>">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== Header / navigation ===== -->
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main">
+      <a href="index.html" class="logo"><span class="logo-mark">#</span>Hashtag <span>Coffee</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active" aria-current="page">Visit &amp; Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <button class="order-btn" type="button" aria-label="Open my order">🛒<span class="order-count" data-count="0">0</span></button>
+        <a href="contact.html#reserve" class="btn btn-sm">Reservation</a>
+        <button class="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-banner">
+      <img src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?auto=format&fit=crop&w=1600&q=70" alt="" aria-hidden="true">
+      <div class="container">
+        <span class="script">Come visit</span>
+        <h1>Visit &amp; contact</h1>
+        <p>Find us, check our hours, or book a table ahead.</p>
+        <div class="breadcrumb"><a href="index.html">Home</a> / Visit &amp; Contact</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container info-grid">
+        <div class="info-card reveal">
+          <div class="feature-icon">📍</div>
+          <h3>Address</h3>
+          <p>Hashtag Coffee – Capitol Site<br>National Highway, Brgy. Kumintang Ibaba<br>Batangas City, Batangas 4200<br>(in front of the Batangas Provincial Capitol)</p>
+          <p style="margin-top:12px"><a href="https://www.google.com/maps/search/?api=1&query=Hashtag+Coffee+Capitol+Site+Batangas+City" target="_blank" rel="noopener">Open in Google Maps ↗</a></p>
+        </div>
+        <div class="info-card reveal">
+          <div class="feature-icon">🕗</div>
+          <h3>Opening hours</h3>
+          <div class="status-pill" data-open-status style="background:var(--latte);border-color:var(--line);color:var(--roast)"><span class="status-dot"></span><span class="status-text"></span></div>
+          <table class="hours-table"><tbody data-hours-table></tbody></table>
+          <p style="margin-top:10px;font-size:.8rem">Last order at 1:00 AM.</p>
+        </div>
+        <div class="info-card reveal">
+          <div class="feature-icon">📞</div>
+          <h3>Contact</h3>
+          <p>Mobile: <a href="tel:+639566557941">0956 655 7941</a><br>
+             Call or text us for reservations, events and bulk orders.</p>
+          <p style="margin-top:12px">Email: <a href="mailto:btghashtagcoffee@gmail.com">btghashtagcoffee@gmail.com</a><br>
+             Messenger: Hashtag Coffee Capitol Site<br>
+             Facebook: <a href="https://www.facebook.com/share/g/1BVFM1Ttfj/" target="_blank" rel="noopener">Join our community ↗</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Location map ===== -->
+    <section class="section section-alt" id="map">
+      <div class="container">
+        <div class="section-head">
+          <span class="script">Location</span>
+          <h2>How to get here</h2>
+          <div class="divider"></div>
+          <p>We are along the National Highway in Kumintang Ibaba, right in front of the Batangas Provincial Capitol and near the University of Batangas and LPU-Batangas. Jeepneys bound for the city proper pass right by us.</p>
+        </div>
+        <div class="map-wrap reveal">
+          <iframe title="Map showing Hashtag Coffee Capitol Site, Batangas City" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://maps.google.com/maps?q=Hashtag%20Coffee%20Capitol%20Site%2C%20Batangas%20City&z=16&output=embed"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Reservation + contact forms ===== -->
+    <section class="section" id="reserve">
+      <div class="container split" style="align-items:start">
+        <div class="form-card reveal">
+          <span class="script">Book ahead</span>
+          <h2 style="margin-bottom:18px">Reserve a table</h2>
+          <form id="reserve-form" data-validate novalidate>
+            <div class="form-grid">
+              <div class="field"><label for="res-name">Full name *</label><input id="res-name" name="name" required minlength="2" autocomplete="name"><span class="error">Please enter your name.</span></div>
+              <div class="field"><label for="res-phone">Mobile number *</label><input id="res-phone" name="phone" type="tel" required pattern="(\+63|0)9\d{9}" placeholder="09XXXXXXXXX" autocomplete="tel"><span class="error">Use a PH mobile number, e.g. 09171234567.</span></div>
+              <div class="field"><label for="res-date">Date *</label><input id="res-date" name="date" type="date" required><span class="error">Pick today or a future date.</span></div>
+              <div class="field"><label for="res-time">Time *</label>
+                <select id="res-time" name="time" required>
+                  <option value="">Choose a time</option>
+                  <option>08:00</option><option>10:00</option><option>12:00</option><option>14:00</option>
+                  <option>16:00</option><option>18:00</option><option>19:00</option><option>20:00</option><option>21:00</option><option>22:00</option><option>23:00</option>
+                </select><span class="error">Choose a time.</span></div>
+              <div class="field"><label for="res-guests">Guests *</label>
+                <select id="res-guests" name="guests" required>
+                  <option value="">How many?</option>
+                  <option>1 guest</option><option>2 guests</option><option>3–4 guests</option><option>5–8 guests</option><option>9+ guests (event)</option>
+                </select><span class="error">Tell us how many guests.</span></div>
+              <div class="field"><label for="res-occasion">Occasion</label>
+                <select id="res-occasion" name="occasion">
+                  <option>Just hanging out</option><option>Study / work session</option><option>Birthday</option><option>Meeting</option><option>Date</option>
+                </select></div>
+              <div class="field full"><label for="res-notes">Special requests</label><textarea id="res-notes" name="notes" placeholder="Outlet near the table, birthday cake, high chair…"></textarea></div>
+            </div>
+            <p style="margin-top:18px"><button class="btn" type="submit">Request reservation</button></p>
+            <p class="form-note">* Required. This demo form does not send data anywhere; it shows how online booking would work.</p>
+            <div class="form-success" role="status"></div>
+          </form>
+        </div>
+
+        <div class="form-card reveal">
+          <span class="script">Say hello</span>
+          <h2 style="margin-bottom:18px">Send a message</h2>
+          <form id="contact-form" data-validate novalidate>
+            <div class="form-grid">
+              <div class="field full"><label for="c-name">Name *</label><input id="c-name" name="name" required minlength="2" autocomplete="name"><span class="error">Please enter your name.</span></div>
+              <div class="field full"><label for="c-email">Email *</label><input id="c-email" name="email" type="email" required autocomplete="email"><span class="error">Enter a valid email address.</span></div>
+              <div class="field full"><label for="c-topic">Topic</label>
+                <select id="c-topic" name="topic"><option>General question</option><option>Events &amp; bulk orders</option><option>Feedback</option><option>Careers</option></select></div>
+              <div class="field full"><label for="c-msg">Message *</label><textarea id="c-msg" name="message" required minlength="10"></textarea><span class="error">Write at least 10 characters.</span></div>
+            </div>
+            <p style="margin-top:18px"><button class="btn" type="submit">Send message</button></p>
+            <div class="form-success" role="status"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <span class="script">FAQ</span>
+          <h2>Good to know</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="faq">
+          <details><summary>Do you accept walk-ins?</summary><p>Yes. Reserving ahead is a good idea for big groups, especially on weekend nights.</p></details>
+          <details><summary>How late are you open?</summary><p>We are open every day from 7 AM to 2 AM. The kitchen takes the last order at 1 AM.</p></details>
+          <details><summary>Can I hold a small event or meeting here?</summary><p>Yes. Choose “9+ guests (event)” in the reservation form or send us a message about events and bulk orders.</p></details>
+          <details><summary>Do you have promos?</summary><p>Yes. Rice bowls are only ₱169 (instead of ₱250) from 9–11 AM and 2–4 PM. Join our Facebook community for new promos.</p></details>
+          <details><summary>Why do the BBQ ribs have a price range?</summary><p>Our Texas Style BBQ Pork Ribs are priced by weight: Solo (200–250 g), Half Slab (300–500 g) or Full Slab (550–1000 g).</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="logo"><span class="logo-mark">#</span>Hashtag <span>Coffee</span></a>
+        <p>In front of the Batangas Provincial Capitol, Kumintang Ibaba, Batangas City. Open daily, 7 AM – 2 AM.</p>
+        <div class="socials">
+          <a href="https://www.facebook.com/share/g/1BVFM1Ttfj/" target="_blank" rel="noopener" aria-label="Facebook community">f</a>
+          <a href="mailto:btghashtagcoffee@gmail.com" aria-label="Email">@</a>
+          <a href="tel:+639566557941" aria-label="Call">☎</a>
+        </div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Visit &amp; contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="menu.html?cat=coffee">Coffee</a></li>
+          <li><a href="menu.html?cat=non-coffee">Non-coffee</a></li>
+          <li><a href="menu.html?cat=meals">Meals</a></li>
+          <li><a href="menu.html?cat=pasta-pizza">Pasta &amp; pizza</a></li>
+          <li><a href="menu.html?cat=snacks">Snacks &amp; burgers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Promos in your inbox</h4>
+        <p>Get new drinks, promos and events first.</p>
+        <form class="newsletter" novalidate>
+          <input type="email" placeholder="you@email.com" aria-label="Email address" required>
+          <button class="btn btn-sm" type="submit">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom container">© <span id="year">2026</span> Hashtag Coffee – Capitol Site. School web project by D. J. P. Natanauan &amp; K. B. M. Espina, LPU-Batangas.</div>
+  </footer>
+
+  <!-- ===== Order tray ===== -->
+  <div class="overlay"></div>
+  <aside class="order-tray" id="order-tray" aria-label="My order" aria-hidden="true">
+    <div class="tray-head"><h3>My order</h3><button type="button" data-close-tray aria-label="Close">×</button></div>
+    <ul class="tray-items" id="tray-items"></ul>
+    <div class="tray-foot">
+      <div class="tray-total"><span>Estimated total</span><span id="tray-total">₱0</span></div>
+      <a href="contact.html#reserve" class="btn">Reserve a table</a>
+      <button type="button" id="clear-order" class="btn btn-outline btn-sm" style="margin-top:8px">Clear order</button>
+      <small>This is a planning tool only. Pay and order at the counter.</small>
+    </div>
+  </aside>
+
+  <a href="contact.html#reserve" class="btn quick-btn">📅 Quick reserve</a>
+  <button class="to-top" type="button" aria-label="Back to top">↑</button>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
